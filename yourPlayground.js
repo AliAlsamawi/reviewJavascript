@@ -5,18 +5,13 @@
 
 //operators
 
-// fruit = prompt('what is your favorit fruit ?')
-
-// console.log(fruit)
-// food = Number(prompt('enter your food amount'))
-// console.log(food)
-// tipPercentage = Number(prompt('tip precentage') /100)
-// tipamount = tipPercentage * food
-// console.log('your tip precent is', tipamount)
-// total = food + tipamount
-// console.log(total, 'is your total')
-
-
+function calculateFoodTotal(food, tip) {
+  tipPercentage = tip / 100
+  tipamount = food * tipPercentage;
+  total = food + tipamount
+  return total;
+}
+console.log(calculateFoodTotal(100, 20));
 //USER INPUT
 //user input
 
@@ -27,10 +22,35 @@
 
 // variable(var, let, const)
 
-let weather = prompt("what's the weather")
-if (weather == 'rain'){
-  console.log('get your umbrella ')
-} else {
-  console.log('get you sun glasses')
-}
+// let weather = prompt("what's the weather")
+// if (weather == 'rain'){
+//   console.log('get your umbrella ')
+// } else {
+//   console.log('get you sun glasses')
+// }
+//  functions
+// function sayMyName(){
+//   console.log('ali')
+// }
+// sayMyName('ali')
 
+// function sayMyName2(name){
+//   console.log(name)
+// }
+// sayMyName2('ali2')
+
+//this function takes one argument and logs your name into the console
+
+// function greeting(name){
+//   greet = `hi ${name}, nice to meet you!`
+//   console.log(greet)
+// }
+// greeting('ali a')
+
+// function sum(a, b){
+//   //return
+//   return a + b
+// }
+
+// num1 = sum(1, 2)
+// console.log(num1)
