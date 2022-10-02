@@ -8,10 +8,16 @@
 // fruit = prompt('what is your favorit fruit ?')
 
 // console.log(fruit)
-food = prompt('enter your food amount')
+food = Number(prompt('enter your food amount'))
 // console.log(food)
-tipPercentage = prompt('tip precentage') /100
+tipPercentage = Number(prompt('tip precentage') /100)
 tipamount = tipPercentage * food
-console.log('your time precent is', tipamount)
+console.log('your tip precent is', tipamount)
+total = food + tipamount
+console.log(total, 'is your total')
+
 
 //USER INPUT
+//user input
+
+// datat 
