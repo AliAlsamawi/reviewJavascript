@@ -4,14 +4,6 @@
 // console.log(youName)
 
 //operators
-
-function calculateFoodTotal(food, tip) {
-  tipPercentage = tip / 100
-  tipamount = food * tipPercentage;
-  total = food + tipamount
-  return total;
-}
-console.log(calculateFoodTotal(100, 20));
 //USER INPUT
 //user input
 
@@ -47,10 +39,27 @@ console.log(calculateFoodTotal(100, 20));
 // }
 // greeting('ali a')
 
-// function sum(a, b){
-//   //return
-//   return a + b
-// }
+function sum(a, b){
+return a + b
+}
 
-// num1 = sum(1, 2)
-// console.log(num1)
+// function calculateFoodTotal(food, tip) {
+//   tipPercentage = tip / 100
+//   tipAmoutn = food * tipPercentage;
+//   total = sum(food, tipAmoutn)
+//   return total;
+// }
+// console.log(calculateFoodTotal(300, 20));
+
+//ES6 m
+
+function calculateFoodTotal(food, tip) {
+  const tipPercentage = tip / 100
+  const tipAmount = food * tipPercentage;
+  const total = sum(food, tipAmount)
+  return total;
+}
+console.log(calculateFoodTotal(300, 20));
+
+const sumOfArrow = (a, b) => a + b
+console.log(sumOfArrow(10,10));
