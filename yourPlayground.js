@@ -65,9 +65,9 @@
 // console.log(sumOfArrow(10,10));
 
 
-const groceries = ['banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires'];
+// const groceries = ['banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires'];
 
-console.log(groceries);
+// console.log(groceries);
 
 // arrays
 //.push
@@ -81,4 +81,15 @@ console.log(groceries);
 
 //.length 
 
-console.log(groceries.length);
+// console.log(groceries.length);
+
+// objects
+// dot notation
+
+const person = {
+  name: 'ali', 
+  shirt: 'black'
+
+}
+console.log(person['name'])
+console.log(person['shirt'])
