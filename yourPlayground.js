@@ -39,9 +39,9 @@
 // }
 // greeting('ali a')
 
-function sum(a, b){
-return a + b
-}
+// function sum(a, b){
+// return a + b
+// }
 
 // function calculateFoodTotal(food, tip) {
 //   tipPercentage = tip / 100
@@ -53,13 +53,32 @@ return a + b
 
 //ES6 m
 
-function calculateFoodTotal(food, tip) {
-  const tipPercentage = tip / 100
-  const tipAmount = food * tipPercentage;
-  const total = sum(food, tipAmount)
-  return total;
-}
-console.log(calculateFoodTotal(300, 20));
+// function calculateFoodTotal(food, tip) {
+//   const tipPercentage = tip / 100
+//   const tipAmount = food * tipPercentage;
+//   const total = sum(food, tipAmount)
+//   return total;
+// }
+// console.log(calculateFoodTotal(300, 20));
 
-const sumOfArrow = (a, b) => a + b
-console.log(sumOfArrow(10,10));
+// const sumOfArrow = (a, b) => a + b
+// console.log(sumOfArrow(10,10));
+
+
+const groceries = ['banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires'];
+
+console.log(groceries);
+
+// arrays
+//.push
+// groceries.push("cookie", "bluebarries");
+//slice
+
+// console.log(groceries.slice(1,4));
+
+//indexOf
+// console.log(groceries.indexOf('orange'));
+
+//.length 
+
+console.log(groceries.length);
