@@ -64,7 +64,6 @@
 // const sumOfArrow = (a, b) => a + b
 // console.log(sumOfArrow(10,10));
 
-
 // const groceries = ['banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires'];
 
 // console.log(groceries);
@@ -79,17 +78,51 @@
 //indexOf
 // console.log(groceries.indexOf('orange'));
 
-//.length 
+//.length
 
 // console.log(groceries.length);
 
 // objects
 // dot notation
 
-const person = {
-  name: 'ali', 
-  shirt: 'black'
+// const person = {
+//   name: "ali",
+//   shirt: "black",
+// };
+// console.log(person["name"]);
+// console.log(person["shirt"]);
 
-}
-console.log(person['name'])
-console.log(person['shirt'])
+// //assign object
+// person.phone = "12344555";
+// console.log(person);
+
+// const person2 = {
+//   name: "name",
+//   shirt: "black",
+// };
+
+// console.log(person2);
+
+// const  = (name, shirt) => {
+
+// };
+
+const interoducerter = (name, shirt) => {
+  const person = {
+    name: name,
+    shirt: shirt,
+    assets: 100000,
+    liabilities: 50000,
+    netWorth: function () {
+      return this.assets - this.liabilities;
+    },
+  };
+
+  const intro = `hi, my name is ${person.name} and the color of my shirt is ${
+    person.shirt
+  } and my networth is ${person.netWorth()}`;
+  return intro;
+};
+
+console.log(interoducerter("ali", "white"));
+// console.log(interoducerter('ali2', 'white'));
