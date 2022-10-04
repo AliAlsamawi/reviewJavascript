@@ -107,22 +107,38 @@
 
 // };
 
-const interoducerter = (name, shirt) => {
-  const person = {
-    name: name,
-    shirt: shirt,
-    assets: 100000,
-    liabilities: 50000,
-    netWorth: function () {
-      return this.assets - this.liabilities;
-    },
-  };
+// const interoducerter = (name, shirt) => {
+//   const person = {
+//     name: name,
+//     shirt: shirt,
+//     assets: 100000,
+//     liabilities: 50000,
+//     netWorth: function () {
+//       return this.assets - this.liabilities;
+//     },
+//   };
 
-  const intro = `hi, my name is ${person.name} and the color of my shirt is ${
-    person.shirt
-  } and my networth is ${person.netWorth()}`;
-  return intro;
-};
+//   const intro = `hi, my name is ${person.name} and the color of my shirt is ${
+//     person.shirt
+//   } and my networth is ${person.netWorth()}`;
+//   return intro;
+// };
 
-console.log(interoducerter("ali", "white"));
+// console.log(interoducerter("ali", "white"));
 // console.log(interoducerter('ali2', 'white'));
+
+let coolNames = ['banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires',]
+// console.log(fruits);
+// for (let i = 0; i < cool.length; i++) {
+//   console.log(i,cool[i]);
+  
+// }
+for (const coolName of coolNames){
+  console.log(coolName);
+}
+
+let numbers = [1,2,3,4,5,6]
+
+for (number of numbers){
+  console.log(number);
+} 
