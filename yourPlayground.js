@@ -127,18 +127,24 @@
 // console.log(interoducerter("ali", "white"));
 // console.log(interoducerter('ali2', 'white'));
 
-let coolNames = ['banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires',]
+// let coolNames = ['banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires','banana', 'apple', 'orange', 'pear', 'cookie', 'bluebaires',]
 // console.log(fruits);
 // for (let i = 0; i < cool.length; i++) {
 //   console.log(i,cool[i]);
   
 // }
-for (const coolName of coolNames){
-  console.log(coolName);
+// for (const coolName of coolNames){
+//   console.log(coolName);
+// }
+
+// let numbers = [1,2,3,4,5,6]
+
+const double = (numbers) => {
+  let results = []
+  for (number of numbers){
+    results.push(number * 2)
+  }
+    return results
 }
+console.log(double([1,2,3,4,5,6]))
 
-let numbers = [1,2,3,4,5,6]
-
-for (number of numbers){
-  console.log(number);
-} 

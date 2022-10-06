@@ -66,57 +66,57 @@ Random - gives you number between 0 and 1
 // this is a function called 'sayMyName'
 // and it has 0 arguments
 // does: it logs out your name to the console
-function sayMyName() {
-  console.log('Qazi')
-}
+// function sayMyName() {
+//   console.log('Qazi')
+// }
 
 // sayMyName()
 
 // this is a function called "sayMyName2"
 // it has 1 argument called `name`
 // does: it logs out your name to console
-function sayMyName2(name) {
-  console.log(name)
-}
+// function sayMyName2(name) {
+//   console.log(name)
+// }
 
 // sayMyName2('Kevin')
 
-function greeting(name) {
-  // greet = 'hi ' + name + ', Nice to meet you!'
-  // template literals ``
-  greet = `hi ${name}, Nice to meet you!`
-  console.log(greet)
-}
+// function greeting(name) {
+//   // greet = 'hi ' + name + ', Nice to meet you!'
+//   // template literals ``
+//   greet = `hi ${name}, Nice to meet you!`
+//   console.log(greet)
+// }
 
 // greeting('Johnny Depp')
 
-function sum(a, b) {
-  // return
-  return a + b
-}
+// function sum(a, b) {
+//   // return
+//   return a + b
+// }
 
 // num1 = sum(1, 2)
 // console.log(num1)
 
-function calculateFoodTotal(food, tip) {
-  const tipPercentage = tip / 100
-  const tipAmount = food * tipPercentage
-  const total = sum(food, tipAmount)
-  return total
-}
+// function calculateFoodTotal(food, tip) {
+//   const tipPercentage = tip / 100
+//   const tipAmount = food * tipPercentage
+//   const total = sum(food, tipAmount)
+//   return total
+// }
 
 // console.log(calculateFoodTotal(300, 20))
 
 // ES6
 // Arrow Functions =>
 // arrow function with explicit return
-const sumArrow = (a, b) => {
-  return a + b
-}
+// const sumArrow = (a, b) => {
+//   return a + b
+// }
 
 // arrow function with implicit return
 // IMPORTANT: For implicit return, remove curly braces
-const sumArrow2 = (a, b) => a + b
+// const sumArrow2 = (a, b) => a + b
 
 // console.log(sumArrow2(10, 50))
 
