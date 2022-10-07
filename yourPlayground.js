@@ -131,7 +131,7 @@
 // console.log(fruits);
 // for (let i = 0; i < cool.length; i++) {
 //   console.log(i,cool[i]);
-  
+
 // }
 // for (const coolName of coolNames){
 //   console.log(coolName);
@@ -139,12 +139,20 @@
 
 // let numbers = [1,2,3,4,5,6]
 
-const double = (numbers) => {
-  let results = []
-  for (number of numbers){
-    results.push(number * 2)
-  }
-    return results
-}
-console.log(double([1,2,3,4,5,6]))
+// const double = (numbers) => {
+//   let results = []
+//   for (number of numbers){
+//     results.push(number * 2)
+//   }
+//     return results
+// }
+// console.log(double([1,2,3,4,5,6]))
 
+const letterCounter = () => {
+  const phrase = "hey, can you go to grocery store with me?";
+  for ( letter in phrase ) {
+    console.log(Number(letter) + 1);
+  }
+};
+
+letterCounter()
