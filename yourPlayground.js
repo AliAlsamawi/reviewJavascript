@@ -149,10 +149,24 @@
 // console.log(double([1,2,3,4,5,6]))
 
 // const letterCounter = () => {
-//   const phrase = "hey, can you go to grocery store with me?";
-//   for ( letter in phrase ) {
-//     console.log(Number(letter) + 1);
+//   let result = 0;
+  
+//   for (const index in phrase) {
+//     console.log(Number(index) + 1);
+//     result = Number(index) + 1;
 //   }
+//   return { result };
 // };
 
-// letterCounter()
+// const phrase = prompt('write your phrase')
+
+// console.log(letterCounter(phrase));
+
+const letterCounter = () => {
+  
+  return { result: phrase.length };
+};
+
+const phrase = prompt('write your phrase')
+
+console.log(letterCounter(phrase));
