@@ -171,14 +171,29 @@ const letterCounter = () => {
 
 // console.log(letterCounter(phrase));
 
-const sumArray = (numbers) => {
-  let result = 0;
-  for (const number in numbers){
-    console.log(number); 
-  }
-  
-  return { result };
-};
+// const sumArray = (numbers) => {
+//   let result = 0;
+//   for (const number of numbers) {
+//     // console.log(number);
+//     result = result + number;
+//   }
 
-const nums = [1,2,3,4]
-console.log(sumArray(nums));
+//   return { result };
+// };
+
+// const nums = [1, 2, 3, 4];
+// console.log(sumArray(nums));
+
+// const max = (numbers) => {
+//   let result = numbers[0];
+
+//   for (const number of numbers) {
+//     console.log(number);
+//     if (number > result) {
+//       result = number;
+//     }
+//   }
+
+//   return { result };
+// };
+// console.log(max([1, 2, 3, 4, 5,3,4,5,4,2,3,9]));
