@@ -197,3 +197,23 @@ const letterCounter = () => {
 //   return { result };
 // };
 // console.log(max([1, 2, 3, 4, 5,3,4,5,4,2,3,9]));
+
+// console.log(phrase);
+//make a frequencey object {}
+//loop through all the letter and check if already their
+//if it exists then incremenet the value by +1
+//otherwise set the value to one
+
+const letterFrequency = (phrase) => {
+  let frequency = {};
+  for (letter of phrase) {
+    if (letter in frequency) {
+      frequency[letter] = frequency[letter] + 1;
+    } else {
+      frequency[letter] = 1;
+    }
+  }
+  return frequency;
+};
+
+console.log(letterFrequency("hahaliaha"));
