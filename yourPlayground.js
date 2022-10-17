@@ -148,25 +148,37 @@
 // }
 // console.log(double([1,2,3,4,5,6]))
 
-// const letterCounter = () => {
-//   let result = 0;
-  
-//   for (const index in phrase) {
-//     console.log(Number(index) + 1);
-//     result = Number(index) + 1;
-//   }
-//   return { result };
-// };
+const letterCounter = () => {
+  let result = 0;
+
+  for (const index in phrase) {
+    console.log(Number(index) + 1);
+    result = Number(index) + 1;
+  }
+  return { result };
+};
 
 // const phrase = prompt('write your phrase')
 
 // console.log(letterCounter(phrase));
 
-const letterCounter = () => {
+// const letterCounter = () => {
+
+//   return { result: phrase.length };
+// };
+
+// // const phrase = prompt('write your phrase')
+
+// console.log(letterCounter(phrase));
+
+const sumArray = (numbers) => {
+  let result = 0;
+  for (const number in numbers){
+    console.log(number); 
+  }
   
-  return { result: phrase.length };
+  return { result };
 };
 
-const phrase = prompt('write your phrase')
-
-console.log(letterCounter(phrase));
+const nums = [1,2,3,4]
+console.log(sumArray(nums));
