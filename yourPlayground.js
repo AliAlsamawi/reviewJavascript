@@ -148,15 +148,15 @@
 // }
 // console.log(double([1,2,3,4,5,6]))
 
-const letterCounter = () => {
-  let result = 0;
+// const letterCounter = () => {
+//   let result = 0;
 
-  for (const index in phrase) {
-    console.log(Number(index) + 1);
-    result = Number(index) + 1;
-  }
-  return { result };
-};
+//   for (const index in phrase) {
+//     console.log(Number(index) + 1);
+//     result = Number(index) + 1;
+//   }
+//   return { result };
+// };
 
 // const phrase = prompt('write your phrase')
 
@@ -203,31 +203,27 @@ const letterCounter = () => {
 //loop through all the letter and check if already their
 //if it exists then incremenet the value by +1
 //otherwise set the value to one
-const userInput = prompt('type something man, come on')
+// const userInput  = prompt('type something man, come on')
 
-const letterFrequency = (phrase) => {
-  let frequency = {};
-  for (letter of phrase) {
-    if (letter in frequency) {
-      frequency[letter] += 1
-    } else {
-      frequency[letter] = 1;
-    }
-  }
-  return frequency;
-};
-console.log(letterFrequency(userInput));
+// const letterFrequency = (phrase) => {
+//   let frequency = {};
+//   for (letter of phrase) {
+//     if (letter in frequency) {
+//       frequency[letter] += 1
+//     } else {
+//       frequency[letter] = 1;
+//     }
+//   }
+//   return frequency;
+// };
+// console.log(letterFrequency(userInput));
 
-
-
-const wordFrequency = (phrase) => {
-  let frequencey = {};
-  const words = phrase.split(" ");
-  return letterFrequency(words)
-};
-console.log(wordFrequency(userInput))
-
-
+// const wordFrequency = (phrase) => {
+//   let frequencey = {};
+//   const words = phrase.split(" ");
+//   return letterFrequency(words)
+// };
+// console.log(wordFrequency(userInput))
 
 // console.log(letterFrequency("haha"));
 // wordFrequency
@@ -242,11 +238,34 @@ console.log(wordFrequency(userInput))
 //       frequencey[word] = 1
 //     }
 //   }
-//   // for (word of phrase) {
-//   // }
+// for (word of phrase) {
+// }
 
 //   return frequencey;
 // };
 
 // console.log(wordFrequency("lol this is not fun lol"));
+//map
+// const doubleMap = (numbers)=>{
+//   return numbers.map(number => number * 2)
+// }
+// console.log(doubleMap([1,2,3,4,5,6]))
 
+// filter([1,2,3,4,5,6], 3)
+
+
+const filter = (numbers, greaterThan) => {
+  let result = []
+  for (let number of numbers){
+    if (number > greaterThan){
+      result.push(number)
+    }
+  }
+  return result
+};
+// console.log(filter([1,2,3,4,5,6], 3));
+
+const nums = [1,2,3,4,5,6]
+
+console.log(nums.filter(num => num > 3))
+console.log(nums);
