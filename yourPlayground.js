@@ -203,36 +203,50 @@ const letterCounter = () => {
 //loop through all the letter and check if already their
 //if it exists then incremenet the value by +1
 //otherwise set the value to one
+const userInput = prompt('type something man, come on')
 
-// const letterFrequency = (phrase) => {
-//   let frequency = {};
-//   for (letter of phrase) {
-//     if (letter in frequency) {
-//       frequency[letter] += 1
-//     } else {
-//       frequency[letter] = 1;
-//     }
-//   }
-//   return frequency;
-// };
-
-// console.log(letterFrequency("haha"));
-//wordFrequency
-const wordFrequency = (phrase) => {
-  let frequencey = {};
-  words = phrase.split(" ");
-  for (let word of words) {
-    // console.log(word);
-    if (word in frequencey) {
-      frequencey[word] += 1;
+const letterFrequency = (phrase) => {
+  let frequency = {};
+  for (letter of phrase) {
+    if (letter in frequency) {
+      frequency[letter] += 1
     } else {
-      frequencey[word] = 1
+      frequency[letter] = 1;
     }
   }
-  // for (word of phrase) {
-  // }
-
-  return frequencey;
+  return frequency;
 };
+console.log(letterFrequency(userInput));
 
-console.log(wordFrequency("lol this is not fun lol"));
+
+
+const wordFrequency = (phrase) => {
+  let frequencey = {};
+  const words = phrase.split(" ");
+  return letterFrequency(words)
+};
+console.log(wordFrequency(userInput))
+
+
+
+// console.log(letterFrequency("haha"));
+// wordFrequency
+// const wordFrequency = (phrase) => {
+//   let frequencey = {};
+//   words = phrase.split(" ");
+//   for (let word of words) {
+//     // console.log(word);
+//     if (word in frequencey) {
+//       frequencey[word] += 1;
+//     } else {
+//       frequencey[word] = 1
+//     }
+//   }
+//   // for (word of phrase) {
+//   // }
+
+//   return frequencey;
+// };
+
+// console.log(wordFrequency("lol this is not fun lol"));
+
