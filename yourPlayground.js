@@ -254,18 +254,19 @@
 // filter([1,2,3,4,5,6], 3)
 
 
-const filter = (numbers, greaterThan) => {
-  let result = []
-  for (let number of numbers){
-    if (number > greaterThan){
-      result.push(number)
-    }
-  }
-  return result
-};
+// const filter = (numbers, greaterThan) => {
+//   let result = []
+//   for (let number of numbers){
+//     if (number > greaterThan){
+//       result.push(number)
+//     }
+//   }
+//   return result
+// };
 // console.log(filter([1,2,3,4,5,6], 3));
 
 const nums = [1,2,3,4,5,6]
 
-console.log(nums.filter(num => num > 3))
-console.log(nums);
+console.log(nums.filter(num => num > 3 || num < 2))
+personName  = 'ali'
+yourPlayground.innerHTML= `<h1>${personName}</h1>`
