@@ -253,7 +253,6 @@
 
 // filter([1,2,3,4,5,6], 3)
 
-
 // const filter = (numbers, greaterThan) => {
 //   let result = []
 //   for (let number of numbers){
@@ -265,8 +264,21 @@
 // };
 // console.log(filter([1,2,3,4,5,6], 3));
 
-const nums = [1,2,3,4,5,6]
+// const nums = [1,2,3,4,5,6]
 
-console.log(nums.filter(num => num > 3 || num < 2))
-personName  = 'ali'
-yourPlayground.innerHTML= `<h1>${personName}</h1>`
+// console.log(nums.filter(num => num > 3 || num < 2))
+// personName  = 'ali'
+// yourPlayground.innerHTML= `<h1>${personName}</h1>`
+
+// const sumArrayWithReduce = (numbers) => {};
+// const nums = [1, 2, 3];
+// const result = nums.reduce((prev, curr) => prev + curr);
+// console.log(result);
+
+const weartherScore = (weather)=>{
+  if(weather = 1){
+    return 'rainy'
+  }else{
+
+  }
+}
