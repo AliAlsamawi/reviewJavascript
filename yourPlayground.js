@@ -274,11 +274,14 @@
 // const nums = [1, 2, 3];
 // const result = nums.reduce((prev, curr) => prev + curr);
 // console.log(result);
-
+// 1= rainy, -1 = sunny, 0 = overcast 
 const weartherScore = (weather)=>{
-  if(weather = 1){
+  if(weather == 1){
     return 'rainy'
+  }else if(weather == -1){
+    return "sunny"
   }else{
-
+    return 'overcast'
   }
 }
+console.log(weartherScore());
